@@ -6,6 +6,7 @@ class Post
   end
 
   def author_name
+    sophie = Author.new("Sophie")
     
   end
 
