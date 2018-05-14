@@ -6,8 +6,8 @@ class Post
   end
 
   def author_name
-    author.name
-  else nil
+    if author.name
+    else nil
   end
 
 end
